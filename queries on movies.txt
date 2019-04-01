@@ -1,0 +1,12 @@
+6> select count(movieId) from movies;
+
+5> select yearOfRelease,count(movieId) from movies group by yearOfRelease;
+
+4> select count(movieId) from movies where (duration>7200);
+
+3> select * from movies where rating>3 and rating<4;
+
+2> select count(movieId) from movies where (rating>4);
+
+1> select count(movieId) from movies where yearOfRelease between 1950 and 1960;
+
